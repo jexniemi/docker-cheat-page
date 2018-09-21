@@ -1,5 +1,5 @@
 # Docker cheatsheet
-Collection of the most important Docker commands and explanations.
+Collection of the most important Docker commands with explanations.
 
 
 ## Building an image from Dockerfile:
