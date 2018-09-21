@@ -1,4 +1,4 @@
-# Docker-cheat-page
+# Docker cheatsheet
 Collection of the most important Docker commands and explanations.
 
 
