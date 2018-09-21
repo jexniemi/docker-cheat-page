@@ -12,5 +12,5 @@ COPY . /app
 # Launch application
 CMD node index.js
 
-# Expose container's port 8081 to the outside
+# Expose container's port 8081 to other containers 
 EXPOSE 8081
