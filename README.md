@@ -41,7 +41,7 @@ https://docs.docker.com/engine/reference/commandline/exec/
 
 `$ docker ps`
 
-Add `-a` flag if you want to see all of your images (default shows only _running_ containers).
+Add `-a` flag if you want to see all of your containers (default shows only _running_ containers).
 
 https://docs.docker.com/engine/reference/commandline/ps/
 
