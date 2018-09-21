@@ -71,3 +71,8 @@ https://docs.docker.com/engine/reference/commandline/image_prune/
 
 See more information about dangling images: 
 https://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/
+
+## Docker ports - Expose vs Publish:
+
+https://medium.freecodecamp.org/expose-vs-publish-docker-port-commands-explained-simply-434593dbc9a3
+
