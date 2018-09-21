@@ -6,7 +6,7 @@ Collection of the most important Docker commands and explanations.
 
 Docker build -command
 
-`$ docker build --rm -t <name>:<optional-tag>` <directory_with_dockerfile>
+`$ docker build --rm -t <name>:<optional-tag> <directory_with_dockerfile>`
 
 * `--rm` removes intermediate containers
 * `-t` is used to the container a name and an option tag. If tag is not specified it will be 'latest'
