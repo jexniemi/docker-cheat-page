@@ -22,8 +22,9 @@ Docker run -command. Creates a container with specified image
 `$ docker run --rm -d -p 8080:8081 <IMAGE>`
 
 * `--rm` Automatically removes the container when it exits
-* `-p` Stands for 'publish'. First specifies host's port and then container's port that is published to the host
 * `-d` Stands for 'detached'. Runs container as a daemon process (in the background, so it won't take up your terminal)
+* `-p <port>:<port>` Stands for 'publish'. First part specifies the host's port to be mapped and the second part specifies container's port that is published to the host
+* You can also replace `-p` flag with `-P` flag. The `-P` flag will publish all the ports you EXPOSEd in your Dockerfile and bind them to the host. Then you can remove the ports in the above command.
 
 You can also add `--name <containerName>` if you want to identify your containers more easily
 
