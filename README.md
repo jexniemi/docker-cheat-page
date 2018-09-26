@@ -34,9 +34,15 @@ https://docs.docker.com/engine/reference/commandline/run/#extended-description
 
 To access docker container's command line, run:
 
-`$ docker exec -it <container_name>`
+`$ docker exec -it <CONTAINER>`
 
 https://docs.docker.com/engine/reference/commandline/exec/
+
+## Display amount of running containers and docker images
+
+`$ docker info`
+
+https://docs.docker.com/v17.12/engine/reference/commandline/info/
 
 ## Viewing your Docker containers
 
@@ -54,13 +60,15 @@ Add `-a` flag if you want to see all of your images (default hides intermediate 
 
 https://docs.docker.com/engine/reference/commandline/images/
 
-## Killing containers
+## Stop and remove docker container
 
-`$ docker kill <CONTAINER_ID>`
+`$ docker stop <CONTAINER>`
 
-Kills container
+https://docs.docker.com/v17.12/engine/reference/commandline/stop/
 
-https://docs.docker.com/engine/reference/commandline/kill/
+`$ docker rm <CONTAINER>`
+
+https://docs.docker.com/engine/reference/commandline/rm/
 
 ## Removing dangling images
 
