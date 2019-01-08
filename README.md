@@ -70,6 +70,10 @@ https://docs.docker.com/v17.12/engine/reference/commandline/stop/
 
 https://docs.docker.com/engine/reference/commandline/rm/
 
+Remove all stopped containers:
+
+`$ docker container prune`
+
 ## Removing dangling images
 
 `$ docker image prune`
@@ -80,6 +84,10 @@ https://docs.docker.com/engine/reference/commandline/image_prune/
 
 See more information about dangling images: 
 https://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/
+
+## Remove all stopped containers, all dangling images and all unused networks
+
+`$ docker system prune`
 
 ## Docker ports - Expose vs Publish:
 
