@@ -11,7 +11,7 @@ class ExerciseBackendConnection extends Component {
     const works = this.props.connectionTest.data === 'pong'
     return (
         <div>
-          <span> Exercise {this.props.exerciseNumber}: </span>
+          <span> Test: </span>
           <Button color={works ? "green" : "orange"} onClick={this.handleTestConnection} disabled={this.props.connectionTest.pending}>
             Press to Test!
           </Button>
