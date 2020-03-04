@@ -8,7 +8,7 @@ Docker build -command
 
 `$ docker build --rm -t <name>:<optional-tag> <directory_with_dockerfile>`
 
-* `--rm` removes intermediate containers
+* `--rm` removes intermediate images
 * `-t` is used to the container a name and an option tag. If tag is not specified it will be 'latest'
 
 For example, if you want to create image from your current working directory, replace <directory_with_dockerfile> with '.'
